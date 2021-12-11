@@ -1,0 +1,1394 @@
+.body {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+.mobile-container {
+  display: none;
+}
+
+@media only screen and (max-width: 5000px) and (min-width: 1600px) {
+  .roadmap-grid-top {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 4em;
+    margin: 0;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 10em;
+    margin: 0;
+  }
+
+  .line {
+    width: 80vw;
+    border-bottom: 0.5px solid white;
+  }
+
+  .card {
+    background-color: white;
+    width: 23em;
+    height: 25em;
+    border-radius: 25%;
+    display: flex;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 1em;
+    font-size: 0.9em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-top: 10em;
+  }
+
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 20em;
+  }
+
+  .card-container-bt {
+    margin-left: 9em;
+  }
+
+  .card-container-top {
+    margin-right: 9em;
+  }
+
+  .percentage {
+    width: 7em;
+  }
+
+  .percentage-container {
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket {
+    height: 5em;
+    transform: rotate(39deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(0deg);
+  }
+}
+@media only screen and (max-height: 900px) {
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 10em;
+    margin-top: 20em;
+  }
+}
+
+@media only screen and (max-width: 1700px) and (min-width: 1300px) {
+  .roadmap-grid-top {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 4em;
+    margin: 0;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 10em;
+    margin: 0;
+  }
+
+  .line {
+    width: 80vw;
+    border-bottom: 0.5px solid white;
+  }
+
+  .card {
+    background-color: white;
+    width: 20em;
+    height: 21em;
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-top: 10em;
+  }
+
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 10em;
+  }
+
+  .card-container-bt {
+    margin-left: 6em;
+  }
+
+  .card-container-top {
+    margin-right: 6em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(39deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1130px) {
+  .roadmap-grid-top {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 4em;
+    margin: 0;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 10em;
+    margin: 0;
+  }
+
+  .line {
+    width: 80vw;
+    border-bottom: 0.5px solid white;
+  }
+
+  .card {
+    background-color: white;
+    width: 1em;
+    width: 16em;
+    height: 22em;
+    border-radius: 25%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-top: 10em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 4em;
+  }
+
+  .card-container-bt {
+    margin-left: 6em;
+  }
+
+  .card-container-top {
+    margin-right: 6em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(39deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 1100px) {
+  .roadmap-grid-top {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 4em 0em 4em 4em;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    padding: 2em 0em 2em 5em;
+    margin: 0;
+  }
+
+  .line {
+    width: 80vw;
+    border-bottom: 0.5px solid white;
+  }
+
+  .card {
+    background-color: white;
+    width: 17em;
+    height: 22em;
+    border-radius: 25%;
+    font-weight: bold;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 0.8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+  }
+
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .card-container-bt {
+    margin-left: 4em;
+  }
+
+  .card-container-top {
+    margin-right: 4em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(39deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 800px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    height: 80vw;
+    border-left: 0.5px solid white;
+    margin-right: 6em;
+    margin-left: 6em;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1 em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-top: 10em;
+  }
+
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin-bottom: 31em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .line {
+    height: 1300px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 80%;
+    margin-top: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 7em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) and(min-width:600px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    height: 80vw;
+    border-left: 0.5px solid white;
+    margin-right: 6em;
+    margin-left: 6em;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1 em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-top: 10em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40em;
+    margin-bottom: 31em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 1600px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 80%;
+    margin-top: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 7em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) and(min-width:450px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    height: 80vw;
+    border-left: 0.5px solid white;
+    margin-right: 6em;
+    margin-left: 6em;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1 em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 5em;
+    margin-bottom: 2em;
+  }
+
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 55em;
+    margin-bottom: 50em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 2000px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 90%;
+    margin-top: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 7em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+@media only screen and (max-width: 450px) and(min-width:400px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    border-left: 0.5px solid white;
+
+    height: 3000px;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 3em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 52em;
+    margin-bottom: 50em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 2000px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 90%;
+    margin-top: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 7em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-left: 3em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) and(min-width:300px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    border-left: 0.5px solid white;
+    height: 3000px;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 3em;
+    margin-bottom: 3em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 2200px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-left: 3em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+@media only screen and (max-width: 300px) and(min-width:350px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    border-left: 0.5px solid white;
+    height: 3000px;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 3em;
+    margin-bottom: 3em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 40em;
+    margin-bottom: 50em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 2200px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-left: 3em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 350px) and(min-width:250px) {
+  .roadmap-grid-top {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+
+  .roadmap-grid-bottom {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    margin-top: 6em;
+  }
+
+  .line {
+    border-left: 0.5px solid white;
+    height: 3000px;
+  }
+
+  .mobile-roadmap {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20em;
+  }
+
+  .card {
+    width: 35em;
+    height: 18em;
+
+    font-weight: bold;
+    border-radius: 25%;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    background: black;
+  }
+
+  .roadmap-text {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .roadmap-icon {
+    height: 3em;
+    margin-bottom: 3em;
+  }
+  .roadmap-title-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 5em;
+  }
+
+  #roadmap-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 60em;
+    margin-bottom: 50em;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .line {
+    height: 2200px;
+  }
+
+  .mobile-roadmap-item {
+    font-weight: bold;
+    width: 90%;
+    margin-bottom: 2em;
+  }
+
+  .card-container-bt {
+    margin-bottom: 3em;
+  }
+
+  .card-container-top {
+    margin-bottom: 3em;
+  }
+
+  .percentage {
+    width: 5em;
+  }
+
+  .percentage-container {
+    height: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .roadmap-text-container {
+    height: 59%;
+    display: flex;
+  }
+
+  .timeline-container {
+    margin-left: 3em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+
+  .rocket {
+    height: 3em;
+    transform: rotate(128deg);
+  }
+
+  .portal-roadmap {
+    height: 6em;
+    transform: rotate(90deg);
+  }
+
+  .roadmap-grid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2em;
+    display: none;
+  }
+}

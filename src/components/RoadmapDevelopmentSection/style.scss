@@ -1,0 +1,223 @@
+.roadmap-development-title {
+  width: 50em;
+}
+
+.roadmap-development-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60em;
+}
+
+.roadmap-development-category {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50%;
+  padding: 3em;
+  font-weight: bold;
+}
+
+.roadmap-development-category-container {
+  display: flex;
+  width: 80%;
+}
+
+.roadmap-development-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-right {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+.bottom-left {
+  border-top: 1px solid white;
+  border-right: 1px solid white;
+}
+
+@media only screen and (max-height: 2500px) and (min-height: 600px) {
+  .roadmap-development-section {
+    margin-top: 26em;
+  }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 1000px) {
+  .roadmap-development-section {
+    margin-top: 20em;
+  }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 870px) {
+  .roadmap-development-section {
+    margin-top: 40em;
+  }
+}
+
+@media only screen and (max-width: 870px) and (min-width: 720px) {
+  .roadmap-development-section {
+    margin-top: 50em;
+  }
+
+  .roadmap-development-title {
+    width: 30em;
+    margin-bottom: 5em;
+  }
+}
+
+@media only screen and (max-width: 720px) and (min-width: 600px) {
+  .roadmap-development-section {
+    margin-top: 50em;
+    height: 100em;
+  }
+
+  .roadmap-development-title {
+    width: 20em;
+    margin-bottom: 5em;
+  }
+
+  .top-right {
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: 1px solid white;
+  }
+  .bottom-left {
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .roadmap-development-category-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .roadmap-development-section {
+    margin-top: 40em;
+    height: 100em;
+  }
+
+  .roadmap-development-title {
+    width: 20em;
+    margin-bottom: 5em;
+  }
+
+  .top-right {
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: 1px solid white;
+  }
+  .bottom-left {
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .roadmap-development-category-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap-development-category {
+    padding: 1em;
+  }
+  .category-text {
+    width: 300px;
+  }
+  h1 {
+    width: 350px;
+    font-size: 1.7em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+  .roadmap-development-section {
+    margin-top: 50em;
+    height: 80em;
+  }
+
+  .roadmap-development-title {
+    width: 20em;
+    margin-bottom: 5em;
+  }
+
+  .top-right {
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: 1px solid white;
+  }
+  .bottom-left {
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .roadmap-development-category-container {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .roadmap-development-category {
+    padding: 1em;
+  }
+  .category-text {
+    width: 300px;
+  }
+
+  h1 {
+    width: 330px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 350px) and (min-width: 300px) {
+  .roadmap-development-section {
+    margin-top: 50em;
+    height: 110em;
+  }
+
+  .roadmap-development-title {
+    width: 20em;
+    margin-bottom: 5em;
+  }
+
+  .top-right {
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-top: 1px solid white;
+  }
+  .bottom-left {
+    border-top: 1px solid white;
+    border-right: none;
+    border-bottom: 1px solid white;
+  }
+  .roadmap-development-category-container {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .category-text {
+    width: 300px;
+    text-align: center;
+  }
+
+  h1 {
+    width: 290px;
+    font-size: 1.2em;
+    text-align: center;
+  }
+}

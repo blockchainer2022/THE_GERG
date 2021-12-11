@@ -1,0 +1,54 @@
+.story-text {
+  font-size: 1.3em;
+}
+
+#story-section {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.story-title {
+  width: 16em;
+  margin-bottom: 2em;
+}
+
+.story-text-container {
+  width: 70vw;
+  margin-bottom: 1em;
+}
+
+body {
+  font-family: "Noto Sans Mono", monospace;
+}
+
+@media only screen and (max-width: 500px) {
+  .story-text {
+    font-size: 1em;
+  }
+
+  #story-section {
+    margin-top: 10em;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: "1px solid white";
+  }
+  .story-title {
+    width: 10em;
+    margin-bottom: 2em;
+    margin-top: 4em;
+  }
+
+  .story-text-container {
+    width: 70vw;
+    margin-bottom: 1em;
+  }
+
+  body {
+    font-family: "Noto Sans Mono", monospace;
+  }
+}

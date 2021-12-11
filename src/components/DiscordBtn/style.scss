@@ -1,0 +1,32 @@
+.discord-btn {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  margin-top: 2em;
+
+  transition: all 0.3s;
+}
+.discord-btn:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 5000px) {
+  .discord-btn {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 2em;
+    transition: all 0.3s;
+  }
+  .discord-btn:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+}

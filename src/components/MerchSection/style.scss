@@ -1,0 +1,62 @@
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.inner-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
+}
+
+.carousel-image {
+  height: 40em;
+  width: 40em;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.merch-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 6em;
+  height: 80vh;
+}
+
+.merch-title {
+  width: 9em;
+  margin-bottom: 4em;
+}
+
+.merch-img {
+  width: 26em;
+  height: 26em;
+  transition: all 0.3s;
+}
+
+.merch-img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.img-example-small {
+  width: 10em;
+  height: 10em;
+}
+
+@media only screen and (max-width: 600px) {
+  .merch-img {
+    width: 15em;
+    height: 15em;
+  }
+}
